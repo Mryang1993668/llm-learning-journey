@@ -1,5 +1,18 @@
-# IDE - IntelliJ/PyCharm
-.idea/
-*.iml# IDE - IntelliJ/PyCharm
+# 环境变量
+.env
+.env.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE
 .idea/
 *.iml
+
+# 系统
+.DS_Store
+Thumbs.db
