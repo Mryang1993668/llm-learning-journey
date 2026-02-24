@@ -45,33 +45,35 @@
 
 
 🔧 环境配置
-1. 硬件环境
+硬件环境
 | 项目 | 配置 |
 |------|------|
 | 操作系统 | Windows 10 64位 |
 | 内存 | 8GB |
 | Python 版本 | 3.19 |
-2. 安装依赖
+
+# 安装依赖
 bash
-# 安装所需包
+## 安装所需包
 pip install langchain-community
 pip install langchain-core
 pip install langchain-text-splitters
 pip install dashscope
 pip install python-dotenv
 pip install faiss-cpu
-3. 环境变量配置
+## 环境变量配置
 在项目根目录创建 .env 文件：
 
-env
-# 阿里云百炼配置
+# env
+## 阿里云百炼配置
 DASHSCOPE_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ⚠️ 注意：请替换为你自己的 API Key，不要硬编码在代码中。
 
-4. 准备测试文档
+# 准备测试文档
 创建 公司员工手册.txt：
 
 text
+````
 # 公司员工手册
 
 ## 考勤制度
@@ -88,6 +90,8 @@ text
 餐补：每天30元，随工资发放。
 交通补贴：每月200元。
 年度体检：每年一次，公司全额承担。
+````
+
 📝 核心代码
 项目文件结构
 ```text
