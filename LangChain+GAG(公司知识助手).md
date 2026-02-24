@@ -34,19 +34,23 @@
     最终答案
 ```
 🧩 核心组件
-组件	技术选型	说明
-开发框架	LangChain 0.2.x	应用开发框架
-LLM 模型	qwen-plus	阿里云百炼通义千问
-Embedding 模型	text-embedding-v3	阿里云向量化模型
-向量数据库	FAISS	本地向量存储
-文档加载	TextLoader	支持 txt 格式
-文本分块	RecursiveCharacterTextSplitter	块大小 500，重叠 50
+| 组件 | 技术选型 | 说明 |
+|------|---------|------|
+| 开发框架 | LangChain 0.2.x | 应用开发框架 |
+| LLM 模型 | qwen-plus | 阿里云百炼通义千问 |
+| Embedding 模型 | text-embedding-v3 | 阿里云向量化模型 |
+| 向量数据库 | FAISS | 本地向量存储 |
+| 文档加载 | TextLoader | 支持 txt 格式 |
+| 文本分块 | RecursiveCharacterTextSplitter | 块大小 500，重叠 50 |
+
+
 🔧 环境配置
 1. 硬件环境
-项目	配置
-操作系统	Windows 10 64位
-内存	8GB
-Python 版本	3.19
+| 项目 | 配置 |
+|------|------|
+| 操作系统 | Windows 10 64位 |
+| 内存 | 8GB |
+| Python 版本 | 3.19 |
 2. 安装依赖
 bash
 # 安装所需包
