@@ -212,7 +212,7 @@ LLM 回答质量	✅ 基于知识库，无幻觉
 边界问题处理	✅ 知识外问题、闲聊引导
 端到端响应时间	⚡ 15–50 秒（本地模型）
 截图见证：
-[![test1.png](https://github.com/Mryang1993668/llm-learning-journey/blob/main/images/test1.png)]
+![test1.png](https://github.com/Mryang1993668/llm-learning-journey/blob/main/images/test1.png)
 ![test2.png](images/test2.png)
 ![test3.png](images/test3.png)
 ![test4.png](images/test4.png)
